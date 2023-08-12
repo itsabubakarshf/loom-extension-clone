@@ -4,22 +4,22 @@
     "version": "0.0.1",
     "action": {
         "default_icon": {
-            "16": "images/icon16.png",
-            "24": "images/icon24.png",
-            "32": "images/icon32.png"
+            "16": "assets/icons/record.png",
+            "24": "assets/icons/record.png",
+            "32": "assets/icons/record.png"
         }
     },
     "default_locale": "en",
     "description": "A plain text description",
     "icons": {
-        "16": "icon16.png",
-        "32": "icon32.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        "16": "assets/icons/record.png",
+        "32": "assets/icons/record.png",
+        "48": "assets/icons/record.png",
+        "128": "assets/icons/record.png"
     },
     "author": "abubakarshf.dev",
     "background": {
-        "service_worker": "service-worker.js",
+        "service_worker": "scripts/service-worker.js",
         "type": "module"
     },
     "commands": {
@@ -42,13 +42,13 @@
     "content_scripts": [
         {
             "matches": [
-                "https://*.com/*"
+                "*://*/*"
             ],
             "css": [
-                "my-styles.css"
+                "style/pop-up.css"
             ],
             "js": [
-                "content-script.js"
+                "scripts/content-script.js"
             ]
         }
     ],
@@ -60,7 +60,7 @@
     "web_accessible_resources": [
         {
             "resources": [
-                "content.js"
+                "script/content.js"
             ],
             "matches": [
                 "<all_urls>"
