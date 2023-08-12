@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "My Extension",
+    "name": "Multimedia and Screen Sharing Extension",
     "version": "0.0.1",
     "action": {
         "default_icon": {
@@ -10,7 +10,7 @@
         }
     },
     "default_locale": "en",
-    "description": "A plain text description",
+    "description": "The Multimedia and Screen Sharing Extension is a versatile tool designed to facilitate high-quality video and audio recording, along with secure and efficient screen sharing.",
     "icons": {
         "16": "assets/icons/record.png",
         "32": "assets/icons/record.png",

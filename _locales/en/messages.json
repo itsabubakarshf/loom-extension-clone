@@ -1,10 +1,10 @@
 {
     "extensionName": {
-        "message": "My Extension",
-        "description": "The name of the extension."
+        "message": "Multimedia and Screen Sharing Extension",
+        "description": "This extension provides comprehensive multimedia recording and screen sharing functionalities within the application."
     },
     "extensionDescription": {
-        "message": "A plain text description",
-        "description": "The description of the extension."
+        "message": "The Multimedia and Screen Sharing Extension is a versatile tool designed to facilitate high-quality video and audio recording, along with secure and efficient screen sharing. Ideal for professionals seeking a unified solution for presentations, collaborations, and multimedia capture, it offers intuitive controls, robust performance, and a focus on user-friendliness and security.",
+        "description": "A detailed overview of the extension, outlining its key features, benefits, and applications in video and audio recording as well as screen sharing."
     }
 }
